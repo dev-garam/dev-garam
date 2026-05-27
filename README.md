@@ -7,8 +7,6 @@ Node.js/NestJS 기반의 백엔드 개발자입니다.
 - **강점 영역**: DB 성능 개선, 비동기 이벤트 처리, 로그/정산 데이터 처리, 운영 가능한 백엔드 구조 설계
 - **경력**: 6년 10개월
 - **연락처**: [feelsky665@naver.com](mailto:feelsky665@naver.com)
-- **GitHub**: [github.com/dev-garam](https://github.com/dev-garam)
-- **Service**: [fateflow.app](https://fateflow.app)
 
 ## Summary
 
