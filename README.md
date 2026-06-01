@@ -113,7 +113,7 @@ GPS 좌표를 100㎡ 타일 단위로 처리하고, 타일 방문 로그를 기�
 
 **AI 글래스 Agent 연동 서버**  
 2025.12 - 2026.02  
-`Node.js` `NestJS` `MongoDB` `Redis` `Python`
+`Node.js` `NestJS` `MongoDB` `Mongoose` `migrate-mongo` `Redis` `Python`
 
 **문제**  
 AI Noon은 AI 글래스 제품이었고, STT, LLM, TTS, 도보 내비게이션이 이어지는 흐름에서 사용자가 체감하는 지연이 중요했습니다. 서버는 한국 리전에 있었고 글로벌 사용자도 있었기 때문에, 내부 통신 구조에서 불필요한 지연을 줄일 필요가 있었습니다. 도보 내비게이션에서는 외부 경로 API를 매번 호출할 경우 비용과 응답 의존도가 커지는 문제도 있었습니다.
@@ -197,7 +197,7 @@ OAuth 2.0 기반으로 아모레몰 계정을 이용한 로그인, 회원가입,
 #### AI Noon - AI 글래스 Agent 연동 서버
 
 **2025.12 - 2026.02**  
-`Node.js` `NestJS` `MongoDB` `Redis` `Python`
+`Node.js` `NestJS` `MongoDB` `Mongoose` `migrate-mongo` `Redis` `Python`
 
 - STT, LLM, TTS, 도보 내비게이션으로 이어지는 서버 기능 개발과 통신 구조 개선을 담당했습니다.
 - 기존 Pub/Sub 기반 응답 흐름을 REST와 단방향 SSE 기반 구조로 단순화했습니다.
